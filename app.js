@@ -168,7 +168,7 @@ function showResults(x, y) {
     // Add references/attributions for sources used.
     let creditEl = document.createElement("p");
     creditEl.setAttribute("id","credit-p");
-    creditEl.innerText = `The questions in this quiz are sourced from the PHQ-2, PHQ-9, GAD-2 (all copyright Pfizer, no permission required to reproduce or distribute), Adult ADHD Self Report Scale V1.1 (copyright World Health Organization, use allowed with acknowledgement of copyright), and Utrecht Gender Dysphoria Scale - Gender Spectrum (copyrighted University of Minnesota, license for GALA expires Oct 5, 2024 under ID 6TJ7).`;
+    creditEl.innerText = ``;
     mainEl.appendChild(creditEl);
 
     // Condition description information is stored in this object.
@@ -191,12 +191,12 @@ function showResults(x, y) {
             `Post-traumatic stress disorder (PTSD) is a disorder that develops in some people who have experienced a shocking, scary, or dangerous event. It is natural to feel afraid during and after a traumatic situation. Fear triggers many split-second changes in the body to help defend against danger or to avoid it.`
         ],
         source: [
-            '—National Institute of Mental Health',
-            '—National Institute of Mental Health',
-            '—National Institute of Mental Health',
-            '—National Institute of Mental Health',
-            '—Wikipedia',
-            '—National Institute of Mental Health'
+            'National Institute of Mental Health',
+            'National Institute of Mental Health',
+            'National Institute of Mental Health',
+            'National Institute of Mental Health',
+            'Wikipedia',
+            'National Institute of Mental Health'
         ]
     }
 
